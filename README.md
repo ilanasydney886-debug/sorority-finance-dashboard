@@ -28,7 +28,7 @@ To run this dashboard on your own machine, follow these distinct steps:
 First, download the code to your computer:
 ```bash
 git clone [https://github.com/YOUR_GITHUB_USERNAME/sorority-finance-dashboard.git](https://github.com/YOUR_GITHUB_USERNAME/sorority-finance-dashboard.git)
-cd sorority-finance-dashboard
+cd sorority-finance-dashboard```
 2. Install Dependencies
 
 This installs the specific "tools" like Pandas and Streamlit needed for the app:
