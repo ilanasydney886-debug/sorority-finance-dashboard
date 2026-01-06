@@ -1,2 +1,56 @@
-# sorority-finance-dashboard
-A full-stack financial dashboard built with Python, FastAPI, and Streamlit to automate budget oversight and dues tracking for a Greek life organization.
+# 📊 Chapter Financial Transparency Dashboard
+
+### **Automated Budget Oversight & Member Dues Management**
+
+## Project Overview
+As Chapter Treasurer, I managed a complex annual budget involving significant dues and expenses. To move beyond manual spreadsheets, I built this **Full-Stack Financial Dashboard**. This tool provides a "Single Source of Truth" for the executive board, offering real-time visibility into chapter liquidity, collection rates, and spending trends.
+
+
+
+## Tech Stack
+* **Backend:** Python & SQLAlchemy (ORM for relational data modeling)
+* **Database:** SQLite (Ensures data persistence and integrity)
+* **Data Logic:** Pandas (Used for real-time financial aggregation and calculations)
+* **Frontend:** Streamlit (A reactive web interface for interactive data exploration)
+
+## Key Features
+* **Live Financial Metrics:** Instant calculation of total dues collected, outstanding balances, and total spending.
+* **Dynamic Visualizations:** Interactive bar charts grouping expenses by category (e.g., Social, Recruitment, Philanthropy).
+* **Dues Progress Tracker:** A visual collection rate bar to monitor chapter income status.
+* **Accountability Table:** A searchable breakdown of member payment status and PC year.
+* **Transaction Logging:** A sidebar interface to log new expenses directly into the database without touching code.
+
+## Impact
+* **Increased Transparency:** Empowered the executive board with 24/7 access to real-time budget-to-actuals.
+* **Risk Mitigation:** Replaced manual Excel entry with a relational database, reducing human error in financial reporting.
+* **Data-Driven Decisions:** Provided visual insights into which categories were consuming the most budget, allowing for more accurate future planning.
+
+---
+
+## Installation & Setup
+
+To run this dashboard on your own machine, follow these distinct steps:
+
+### **1. Clone the Project**
+First, download the code to your computer:
+```bash
+git clone [https://github.com/YOUR_GITHUB_USERNAME/sorority-finance-dashboard.git](https://github.com/YOUR_GITHUB_USERNAME/sorority-finance-dashboard.git)
+cd sorority-finance-dashboard
+2. Install Dependencies
+
+This installs the specific "tools" like Pandas and Streamlit needed for the app:
+
+Bash
+pip install -r requirements.txt
+3. Initialize the Database
+
+Run the seed script to create your local database file and add sample data:
+
+Bash
+python3 seed.py
+4. Launch the Portal
+
+Start the web server to view your financial dashboard in your browser:
+
+Bash
+python3 -m streamlit run app.py
