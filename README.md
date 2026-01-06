@@ -5,8 +5,6 @@
 ## Project Overview
 As Chapter Treasurer, I managed a complex annual budget involving significant dues and expenses. To move beyond manual spreadsheets, I built this **Full-Stack Financial Dashboard**. This tool provides a "Single Source of Truth" for the executive board, offering real-time visibility into chapter liquidity, collection rates, and spending trends.
 
-
-
 ## Tech Stack
 * **Backend:** Python & SQLAlchemy (ORM for relational data modeling)
 * **Database:** SQLite (Ensures data persistence and integrity)
@@ -19,11 +17,6 @@ As Chapter Treasurer, I managed a complex annual budget involving significant du
 * **Dues Progress Tracker:** A visual collection rate bar to monitor chapter income status.
 * **Accountability Table:** A searchable breakdown of member payment status and PC year.
 * **Transaction Logging:** A sidebar interface to log new expenses directly into the database without touching code.
-
-## Impact
-* **Increased Transparency:** Empowered the executive board with 24/7 access to real-time budget-to-actuals.
-* **Risk Mitigation:** Replaced manual Excel entry with a relational database, reducing human error in financial reporting.
-* **Data-Driven Decisions:** Provided visual insights into which categories were consuming the most budget, allowing for more accurate future planning.
 
 ---
 
