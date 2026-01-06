@@ -4,6 +4,12 @@
 
 ## Project Overview
 As Chapter Treasurer, I managed a complex annual budget involving significant dues and expenses. To move beyond manual spreadsheets, I built this **Full-Stack Financial Dashboard**. This tool provides a "Single Source of Truth" for the executive board, offering real-time visibility into chapter liquidity, collection rates, and spending trends.
+## 📸 Live Demo
+Below is a preview of the interactive dashboard showing real-time financial analytics and the transaction management interface:
+
+![Financial Dashboard Demo](dashboard-demo.png)
+
+---
 
 ## Tech Stack
 * **Backend:** Python & SQLAlchemy (ORM for relational data modeling)
