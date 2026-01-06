@@ -26,24 +26,21 @@ To run this dashboard on your own machine, follow these distinct steps:
 
 ### **1. Clone the Project**
 First, download the code to your computer:
-```bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/sorority-finance-dashboard.git](https://github.com/YOUR_GITHUB_USERNAME/sorority-finance-dashboard.git)
-cd sorority-finance-dashboard```
-2. Install Dependencies
+`git clone https://github.com/ilanasydney886-debug/sorority-finance-dashboard.git`
+`cd sorority-finance-dashboard`
 
-This installs the specific "tools" like Pandas and Streamlit needed for the app:
+### **2. Install Dependencies**
+This installs the specific tools like Pandas and Streamlit needed for the app:
+`pip install -r requirements.txt`
 
-Bash
-pip install -r requirements.txt
-3. Initialize the Database
-
+### **3. Initialize the Database**
 Run the seed script to create your local database file and add sample data:
+`python3 seed.py`
 
-Bash
-python3 seed.py
-4. Launch the Portal
-
+### **4. Launch the Portal**
 Start the web server to view your financial dashboard in your browser:
+`python3 -m streamlit run app.py`
 
-Bash
-python3 -m streamlit run app.py
+---
+
+*Developed by Ilana Sydney — Leveraging technology to enhance organizational leadership.*
